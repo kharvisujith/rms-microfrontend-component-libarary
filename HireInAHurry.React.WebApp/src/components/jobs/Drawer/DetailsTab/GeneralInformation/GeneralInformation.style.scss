@@ -1,0 +1,31 @@
+.main-drawer-general-details-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  text-transform: capitalize;
+
+  .MuiTypography-root {
+    font-size: 0.7rem;
+  }
+
+  &-item {
+    flex: 0 0 calc(33.33%);
+    padding: 10px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+  }
+}
+
+.main-drawer-general-details-offers-card {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  &-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-item {
+    display: flex;
+    margin-bottom: 0.2rem;
+  }
+}

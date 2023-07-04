@@ -1,0 +1,16 @@
+.main-drawer-card-body-notes-card {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+
+  &-content {
+    display: flex;
+    // justify-content: space-between;
+
+    &-item {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,119 @@
+.main-add-job-form-container {
+  width: 90%;
+
+  
+
+  .main-add-job {
+    display           : flex;
+    // justify-content: center;
+    justify-content   : space-between;
+    margin-bottom     : 1rem;
+    margin-right      : 1rem;
+
+    .main-add-job-label {
+      height     : 1.5rem;
+      width      : 14.438rem;
+      color      : #333333;
+      font-size  : 1rem;
+      line-height: 1.5rem;
+      font-weight: 600;
+    }
+
+    .main-add-job-input {
+      box-sizing   : border-box;
+      height       : 2rem;
+      width        : 30rem;
+      border       : 1px solid #a1a3aa;
+      border-radius: 5px;
+    }
+
+    .main-job-textarea-input {
+      box-sizing   : border-box;
+      height       : 9rem;
+      width        : 32rem;
+      border       : 1px solid #A1A3AA;
+      border-radius: 5px;
+    }
+    
+  }
+
+  .main-add-job-other {
+    display: flex;
+    align-items: flex-end;
+    justify-content   : flex-end;
+    margin-bottom     : 1rem;
+    margin-right      : 1rem;
+
+    .main-add-job-input-other {
+      box-sizing   : border-box;
+      height       : 2rem;
+      width        : 30rem;
+      border       : 1px solid #a1a3aa;
+      border-radius: 5px;
+    }
+
+  }
+
+  .main-add-budget {
+    display        : flex;
+    margin-bottom  : 1rem;
+    margin-right   : 1rem;
+    justify-content: space-between;
+
+    .main-add-budget-label {
+      height     : 1.5rem;
+      width      : 14.438rem;
+      color      : #333333;
+      font-size  : 1rem;
+      line-height: 1.5rem;
+      font-weight: 600;
+    }
+
+    .main-add-budget-secon{
+       
+      width: 30rem;
+      display: flex;
+      justify-content: space-between;
+      .main-add-budget-min {
+        box-sizing     : border-box;
+        justify-content: space-between;
+        height         : 2rem;
+        // margin-left    : 7rem !important;
+        width          : 13rem;
+        // margin-left    : -2rem;
+        border         : 1px solid #a1a3aa;
+        border-radius  : 5px;
+      }
+  
+      .main-add-budget-max {
+        box-sizing   : border-box;
+        height       : 2rem;
+        // margin-left  : -2rem;
+        width        : 13rem;
+        border       : 1px solid #a1a3aa;
+        border-radius: 5px;
+      }
+    }
+
+   
+  }
+
+
+
+
+
+  // .job-next-btn-cont {
+  .job-next-btn {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    background-color: #0076ff;
+    border-radius   : 5px;
+    color           : #ffffff;
+    border          : none;
+    width           : 3.5rem;
+    cursor: pointer;
+    height          : 2rem;
+    // }
+  }
+}

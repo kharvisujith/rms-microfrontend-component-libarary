@@ -1,0 +1,19 @@
+$blue:#0076ff;
+$black:#000000;
+
+$table-last-column-color:#e3eaef;
+$table-row-color:#f5f4f9;
+$column-header-title-color: #a1a3aa;
+
+
+$jobs-card-title-color:#9e7ecf;
+$jobs-card-active-color:#2bfa09;
+$jobs-card-inactive-color: #ed1c28;
+
+$jobs-card-selected-color:#faf09b;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif !important;
+}

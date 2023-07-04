@@ -1,0 +1,26 @@
+.jobs-drawer-tabs-content {
+  // min-width: 40vw;
+  // width: 40vw;
+  // padding: 0.5rem;
+
+  &-card-wrapper {
+    border-radius: 0.3rem;
+
+    &-title {
+      padding: 0.2rem 1rem;
+
+      &-content {
+        text-transform: uppercase;
+      }
+    }
+
+    &-divider {
+      border-top: 0.05rem solid #a1a3aa;
+    }
+
+    &-body {
+      padding: 0.5rem 0.5rem 1rem 0.5rem;
+      overflow-x: auto;
+    }
+  }
+}

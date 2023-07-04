@@ -1,0 +1,29 @@
+.main-job-details-container{
+    background-color: white;
+    padding: 0 1rem;
+    cursor:default;
+    .main-job-details-section{
+        border-bottom: 1px solid #c5c5c5;
+        font-size: 0.75rem;
+        padding-bottom: 0.5rem;
+
+        &:last-child{
+            border-bottom: none;
+        }
+        .main-job-details-section-title{
+            font-size: 0.75rem;
+        }
+        .skills-container{
+            display: flex;
+            .skills-capsule{
+                border-radius: 1rem;
+                background-color: orange;
+                padding: 5px 10px;
+                margin-right:10px;
+                min-width: 4rem;
+                text-align: center;
+            }
+
+        }
+    }
+}

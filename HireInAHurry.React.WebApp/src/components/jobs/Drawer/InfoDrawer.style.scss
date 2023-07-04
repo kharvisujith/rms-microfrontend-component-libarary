@@ -1,0 +1,25 @@
+.main-drawer-tabs-container {
+  width: 40vw;
+  padding: 0.5rem;
+}
+
+.main-drawer-tabs-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 0.5rem;
+
+  &-notes {
+    margin-bottom: 2rem;
+  }
+}
+.main-drawer-flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.main-drawer-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  align-items: center;
+}

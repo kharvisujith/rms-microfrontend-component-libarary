@@ -1,0 +1,10 @@
+@import "../../common/common.style.scss";
+
+.common-button {
+  color: $button-color;
+  background-color: $button-bg-color;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}

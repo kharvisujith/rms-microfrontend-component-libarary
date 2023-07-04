@@ -1,0 +1,41 @@
+// .circle {
+//   width: 3rem;
+//   height: 3rem;
+//   border: 10px solid pink;
+//   border-radius: 50%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: 24px;
+//   font-size: 1rem;
+//   font-weight: bold;
+// }
+
+// .candidate-card-title {
+//   font-weight: 550;
+//   font-size: 2rem;
+//   color: #6d41ea;
+// }
+
+.candidate-card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+
+  &-circle {
+    width: 3rem;
+    height: 3rem;
+    border: 10px solid pink;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}

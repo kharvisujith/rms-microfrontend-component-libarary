@@ -1,0 +1,52 @@
+@import "../../colors.style.scss";
+
+.jobs-table-container {
+  .MuiDataGrid-virtualScroller {
+    min-height: 4rem !important;
+    overflow-y: hidden;
+    margin-bottom: 0.2rem;
+  }
+  .MuiDataGrid-virtualScroller .MuiDataGrid-virtualScrollerContent {
+    padding-bottom: 0.5rem;
+  }
+  .MuiDataGrid-root .MuiDataGrid-row {
+    background-color: $table-row-color;
+    margin-bottom: 2px;
+  }
+
+  .MuiDataGrid-columnHeaderTitle {
+    color: $column-header-title-color;
+  }
+
+  .MuiDataGrid-row .MuiDataGrid-cell:first-child {
+    cursor: pointer;
+  }
+
+  .MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+    outline: none;
+  }
+  .MuiDataGrid-root .MuiDataGrid-columnHeader:focus {
+    outline: none;
+  }
+  .MuiDataGrid-selectedRowCount {
+    visibility: hidden;
+  }
+
+  .MuiDataGrid-footerContainer {
+    //align pagination to center
+    justify-content: center;
+  }
+  & .blue-font {
+    color: $blue;
+  }
+  & .bold {
+    font-weight: 550;
+  }
+  & .black-font {
+    color: $black;
+  }
+  & .workflow-step {
+    background-color: $table-last-column-color;
+    font-weight: 600;
+  }
+}

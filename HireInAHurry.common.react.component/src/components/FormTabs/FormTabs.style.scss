@@ -1,0 +1,36 @@
+.common-form-tab-container {
+  display: flex;
+
+  &-tabs {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.5rem;
+    flex: 0 0 auto;
+    max-width: max-content;
+
+    &-tab {
+      padding: 1rem 2rem;
+      margin-bottom: 0.1rem;
+      cursor: pointer;
+      background-color: #e9ebef;
+      border-left: 5px solid #ffcc00;
+      font-weight: 500;
+
+      &:first-child {
+        border-radius: 0.4rem 0.4rem 0 0;
+      }
+
+      &:last-child {
+        border-radius: 0 0 0.4rem 0.4rem;
+      }
+    }
+
+    &-active {
+      border-left: 5px solid #19c8a7;
+    }
+  }
+
+  &-content-container {
+    flex: 1;
+  }
+}

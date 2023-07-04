@@ -1,0 +1,103 @@
+@import '../../colors';
+.jobs-card-container{
+
+    background:white;
+    height:7rem;
+    width:12rem;
+    padding: 1rem;
+    // margin: 1rem 2rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    &.selected{
+        background-color: $jobs-card-selected-color;
+    }
+    .jobs-card-title{
+        margin-top:0;
+        color:$jobs-card-title-color;
+        font-weight:900;
+    }
+
+    .jobs-card-content{
+        display:flex;
+        align-items: center;
+        gap: 1rem;
+        .total-jobs-container{
+             position: relative;
+            .jobs-client-progress-bar {
+                position: relative;
+                width: 3.75rem; 
+                height: 1.875rem;
+                background-color: $jobs-card-inactive-color; 
+                border-bottom: 0;
+                -webkit-mask: radial-gradient(at 50% 100%, #0000 55%, #000 55.5%);
+                border-radius: 100px 100px 0 0;
+                .progress {
+                    .fill {
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        background-color: $jobs-card-active-color;
+                      }
+                  }
+                
+            }
+
+            .jobs-recruiter-progress-bar {
+                margin-top: 0.3rem;
+                position: relative;
+                width: 3.75rem; 
+                height: 1.875rem;
+                background-color: $jobs-card-inactive-color; 
+                overflow: hidden;
+                -webkit-mask: radial-gradient(at 50% 0%, #0000 55%, #000 55.5%);
+                border-radius: 0 0 100px 100px;
+                .progress {
+                    .fill {
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        background-color: $jobs-card-active-color;
+                      }
+                  }
+                
+            }
+
+            .total-jobs{
+                position: absolute;
+                /* left: 0.8rem; */
+                /* bottom: 0.6rem; */
+                font-size: 1.5rem;
+                font-weight: bold;  
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .jobs-total-associated-candidates{
+            &-title{
+                margin:0px;
+                font-weight:400;
+            }
+            p{
+                margin-top:0.3rem;
+                font-size:0.7rem;
+                span{
+                    margin-right:0.3rem;
+                    .jobs-candidate-icon{
+                        height: 0.62rem;
+                        width: 0.68rem;
+                        transform: scale(1.5);
+                    }
+                }
+            }
+        }
+    }
+}

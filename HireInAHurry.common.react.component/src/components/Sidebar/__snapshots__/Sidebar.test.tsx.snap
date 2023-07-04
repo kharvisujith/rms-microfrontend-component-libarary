@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar renders correctly 1`] = `
+<div>
+  <div
+    class="common-sidebar"
+  >
+    <div
+      class="common-sidebar-container common-sidebar-container-collapsed"
+    >
+      <div
+        class="common-sidebar-container-toggle "
+      >
+        <div
+          class="common-sidebar-container-toggle-hamburger-menu "
+        >
+          <div
+            class="common-sidebar-container-toggle-hamburger-menu-line"
+          />
+          <div
+            class="common-sidebar-container-toggle-hamburger-menu-line"
+          />
+          <div
+            class="common-sidebar-container-toggle-hamburger-menu-line"
+          />
+        </div>
+      </div>
+      <div
+        class="common-sidebar-container-icon"
+      >
+        <div
+          class="common-sidebar-container-icon-top"
+        >
+          <div
+            class="common-sidebar-icon "
+          >
+            <span
+              aria-hidden="true"
+              class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-59v7gf-MuiIcon-root"
+            >
+              <svg />
+            </span>
+          </div>
+          <div
+            class="common-sidebar-icon "
+          >
+            <span
+              aria-hidden="true"
+              class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-59v7gf-MuiIcon-root"
+            >
+              <svg />
+            </span>
+          </div>
+          <div
+            class="common-sidebar-icon "
+          >
+            <span
+              aria-hidden="true"
+              class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-59v7gf-MuiIcon-root"
+            >
+              <svg />
+            </span>
+          </div>
+        </div>
+        <div
+          class="common-sidebar-container-icon-bottom"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
